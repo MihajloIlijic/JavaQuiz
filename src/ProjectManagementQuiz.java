@@ -312,7 +312,7 @@ public class ProjectManagementQuiz {
             System.out.println("Hervorragend! Du beherrschst das Thema sehr gut!");
         } else if (percentage >= 70) {
             System.out.println("Gut gemacht! Du hast ein solides Verständnis!");
-        } else if (percentage >= 50) {
+        } else if (percentage > 60) {
             System.out.println("Bestanden! Aber es gibt noch Raum für Verbesserung.");
         } else {
             System.out.println("Du solltest das Material noch einmal durchgehen.");
